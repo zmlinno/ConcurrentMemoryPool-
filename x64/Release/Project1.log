@@ -1,0 +1,91 @@
+﻿  Benchmark.cpp
+D:\cs\C++\CPP\GBF\Project1\Project1\Common.h(238,1): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\cs\C++\CPP\GBF\Project1\Project1\Common.h(278,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(47,27): error C4839: 将类 "std::atomic<unsigned __int64>" 作为可变参数函数的参数的非标准用法
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(47,27): message : 不会调用构造函数和析构函数；该类的位副本将作为参数进行传递
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2847,23): message : 参见“std::atomic<unsigned __int64>”的声明
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(47,42): error C2280: “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 尝试引用已删除的函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2254): message : 参见“std::atomic<unsigned __int64>::atomic”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2254,5): message : “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 已隐式删除函数
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(46,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(46,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(46,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(46,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(46,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(46,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(46,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 4 拥有了类型“std::atomic<unsigned __int64>”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(50,27): error C4839: 将类 "std::atomic<unsigned __int64>" 作为可变参数函数的参数的非标准用法
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(50,27): message : 不会调用构造函数和析构函数；该类的位副本将作为参数进行传递
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2847,23): message : 参见“std::atomic<unsigned __int64>”的声明
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(50,40): error C2280: “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 尝试引用已删除的函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2254): message : 参见“std::atomic<unsigned __int64>::atomic”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2254,5): message : “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 已隐式删除函数
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(49,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(49,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(49,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(49,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(49,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(49,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(49,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 4 拥有了类型“std::atomic<unsigned __int64>”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(52,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(52,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(52,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(52,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(52,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“_Ty”
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(52,9): message : 请考虑在格式字符串中使用“%llu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(52,9): message : 请考虑在格式字符串中使用“%Iu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(52,9): message : 请考虑在格式字符串中使用“%I64u”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(100,27): error C4839: 将类 "std::atomic<unsigned __int64>" 作为可变参数函数的参数的非标准用法
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(100,27): message : 不会调用构造函数和析构函数；该类的位副本将作为参数进行传递
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2847,23): message : 参见“std::atomic<unsigned __int64>”的声明
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(100,42): error C2280: “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 尝试引用已删除的函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2254): message : 参见“std::atomic<unsigned __int64>::atomic”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2254,5): message : “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 已隐式删除函数
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(99,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(99,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(99,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(99,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(99,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(99,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(99,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 4 拥有了类型“std::atomic<unsigned __int64>”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(103,27): error C4839: 将类 "std::atomic<unsigned __int64>" 作为可变参数函数的参数的非标准用法
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(103,27): message : 不会调用构造函数和析构函数；该类的位副本将作为参数进行传递
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2847,23): message : 参见“std::atomic<unsigned __int64>”的声明
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(103,40): error C2280: “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 尝试引用已删除的函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2254): message : 参见“std::atomic<unsigned __int64>::atomic”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(2254,5): message : “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 已隐式删除函数
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(102,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(102,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(102,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(102,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(102,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(102,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(102,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 4 拥有了类型“std::atomic<unsigned __int64>”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(105,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(105,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(105,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(105,9): message : 请考虑在格式字符串中使用“%zu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(105,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“_Ty”
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(105,9): message : 请考虑在格式字符串中使用“%llu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(105,9): message : 请考虑在格式字符串中使用“%Iu”
+D:\cs\C++\CPP\GBF\Project1\Project1\Benchmark.cpp(105,9): message : 请考虑在格式字符串中使用“%I64u”
+  CentralCache.cpp
+D:\cs\C++\CPP\GBF\Project1\Project1\Common.h(238,1): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\cs\C++\CPP\GBF\Project1\Project1\Common.h(278,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  PageCache.cpp
+D:\cs\C++\CPP\GBF\Project1\Project1\Common.h(238,1): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\cs\C++\CPP\GBF\Project1\Project1\Common.h(278,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ThreadCache.cpp
+D:\cs\C++\CPP\GBF\Project1\Project1\Common.h(238,1): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\cs\C++\CPP\GBF\Project1\Project1\Common.h(278,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  UnitTest.cpp
+D:\cs\C++\CPP\GBF\Project1\Project1\Common.h(238,1): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\cs\C++\CPP\GBF\Project1\Project1\Common.h(278,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
